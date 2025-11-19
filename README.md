@@ -1,2 +1,54 @@
-# trng-autoencoder-analyzer
-A reproducible AI-assisted framework for TRNG entropy analysis combining SP800-90B and CNN/Autoencoder residual inspection.
+TRNG Autoencoder Analysis – Documentation
+========================================
+
+This repository provides a public technical presentation (PPTX file)
+describing a conceptual framework for evaluating True Random Number
+Generator (TRNG) entropy quality using NIST SP800-90B principles and
+an Autoencoder-based residual inspection approach.
+
+Purpose
+-------
+
+The purpose of this repository is to make the methodology explanation
+and related research notes publicly accessible.  
+This allows external verification, timestamped publication, and a
+permanent public record of the work.
+
+Repository Contents
+-------------------
+
+AE_SP80090B_Safe_v2.pptx  
+A technical slide deck covering:
+- Motivation for applying machine learning techniques to TRNG analysis
+- Summary of SP800-90B entropy-related concepts  
+  (collision tests, symbol frequency, estimator considerations)
+- A conceptual Autoencoder residual analysis idea for identifying
+  potential patterns or anomalies in TRNG output data
+- Discussion of how statistical and AI-based inspection can complement
+  each other in TRNG quality evaluation
+
+README.md  
+This file.
+
+Current Status
+--------------
+
+This repository currently provides documentation only.
+No scripts, datasets, or executable code are included at this time.
+
+Planned Additions
+-----------------
+
+Additional materials may be published in the future, such as:
+- Extended documentation or notes
+- Supporting figures or examples
+
+Versioning
+----------
+
+v1.0.0 – Initial public release (documentation only)
+
+Contact
+-------
+
+For questions or clarifications, please use GitHub Issues.
