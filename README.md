@@ -1,3 +1,10 @@
+## About this fork
+This fork extends the original TRNG autoencoder analyzer
+to experiment with raw TRNG test patterns prior to encoding.
+An additional `trng.py` module is used to explore pattern-level
+entropy anomalies before feeding data into the autoencoder model.
+
+
 Technical Article:  
 AI-Assisted TRNG Entropy Analysis Using SP800-90B and Autoencoder Residual Mapping  
 https://medium.com/@ace.lin0121/ai-assisted-trng-entropy-analysis-using-sp800-90b-and-autoencoder-residual-mapping-cdf2ca6e3cb1
