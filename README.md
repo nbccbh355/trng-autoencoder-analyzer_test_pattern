@@ -4,6 +4,10 @@ to experiment with raw TRNG test patterns prior to encoding.
 An additional `trng.py` module is used to explore pattern-level
 entropy anomalies before feeding data into the autoencoder model.
 
+## Quick usage
+```bash
+python trng.py --input sample.bin --out out --save-heatmap --no-ae
+
 
 Technical Article:  
 AI-Assisted TRNG Entropy Analysis Using SP800-90B and Autoencoder Residual Mapping  
