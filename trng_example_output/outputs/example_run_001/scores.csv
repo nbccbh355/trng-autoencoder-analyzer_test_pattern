@@ -1,0 +1,10 @@
+metric,value
+rct_max_run,21
+rct_cutoff,64
+rct_failed,0
+apt_window,1024
+apt_hi,700
+apt_lo,324
+apt_max_ones_in_window,548
+apt_min_ones_in_window,476
+apt_failed,0
