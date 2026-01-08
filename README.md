@@ -1,8 +1,28 @@
+
+# TRNG Autoencoder Analyzer – Test Pattern Extension
 ## About this fork
-This fork extends the original TRNG autoencoder analyzer
-to experiment with raw TRNG test patterns prior to encoding.
-An additional `trng.py` module is used to explore pattern-level
-entropy anomalies before feeding data into the autoencoder model.
+
+This repository is a fork of the original **trng-autoencoder-analyzer** project.
+It is used to experiment with raw TRNG test patterns prior to encoding and
+downstream analysis.
+
+The additional `trng.py` script focuses on pattern-level preprocessing and
+inspection, providing an intuitive way to observe entropy behavior before
+feeding data into statistical tests or autoencoder-based pipelines.
+
+## Purpose
+
+- Explore raw TRNG bitstream behavior at the pattern level
+- Perform lightweight SP800-90B–style health checks (e.g. repetition and
+  proportion tests)
+- Generate example outputs to support exploratory analysis and learning
+
+This fork is intended for research and educational use.
+
+## Quick usage
+
+```bash
+python trng.py --input sample.bin --out out --no-ae
 
 ## Quick usage
 ```bash
